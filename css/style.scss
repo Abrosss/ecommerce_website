@@ -301,12 +301,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 7rem;
    
     .productImageThumbnailContainer {
         display: flex;
         flex-direction: column;
-        width: 38%;
+        width: 46%;
         gap: 1.5rem;
         
         .productImageContainer {
@@ -385,7 +385,7 @@ main {
    
     
     .productDescriptionContainer {
-        width: 39%;
+        width: 40%;
         display: flex;
         flex-direction: column;
     
@@ -399,18 +399,18 @@ main {
                 color: $orange;
                 opacity: .8;
                 font-weight: 700;
-                font-size: 1.2rem;
+                font-size: 1rem;
               
             }
             .productName {
-                font-size: 3.5rem;
+                font-size: 3rem;
                 line-height: 1;
                 font-weight: 700;
             }
         }
         .productDescription {
             color: $darkgrayishblue;
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 700;
             opacity: .7;
             line-height: 2;
