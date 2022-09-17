@@ -126,7 +126,7 @@ header {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10rem;
+    margin: 0 clamp(5rem, 10vw, 10rem);
     border-bottom: 2px hsla(0, 0, 0, .10) solid;
     .openMenu {
         display: none;
@@ -298,7 +298,7 @@ header {
 }
 
 main {
-    padding: 6rem 10rem;
+    padding: 6rem clamp(5rem, 10rem, 10rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,7 +307,7 @@ main {
     .productImageThumbnailContainer {
         display: flex;
         flex-direction: column;
-        width: 46%;
+        width: clamp(10rem, 46%, 40rem);
         gap: 1.5rem;
         
         .productImageContainer {
@@ -386,7 +386,7 @@ main {
    
     
     .productDescriptionContainer {
-        width: 40%;
+        width: clamp(20rem, 40%, 40rem);
         display: flex;
         flex-direction: column;
     
