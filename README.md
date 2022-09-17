@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Continued development
 
-Optimize javascript code and make a e-commerce webapp out of it
+Optimize javascript code and make an e-commerce webapp out of it
 
 ## Author
 
